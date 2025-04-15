@@ -47,7 +47,8 @@ font-face {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   display: flex;
-  gap: 1rem;
+  /* gap: 1rem; */
+  gap:50px;
   align-items: center;
 }
 .ff-articulat {
@@ -97,7 +98,6 @@ font-face {
 .icon {
   background: rgba(217, 217, 217, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.24);
-  font-size: 1.5rem;
   width: 36px;
   height: 36px;
   border-radius: 20px;

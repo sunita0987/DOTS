@@ -173,9 +173,9 @@ font-face {
   height: 100vh;
 }
 .text-content {
-    padding: 300px;
-    margin-left: 100px;
-  }
+  padding: 300px;
+  margin-left: 100px;
+}
 .text-content h2 {
   font-family: "Articulat CF";
   font-style: normal;
@@ -186,16 +186,213 @@ font-face {
   color: #ffffff;
 }
 .text-content p {
-width: 600px;
-height: 78px;
-font-family: 'Articulat CF';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 160%;
-text-align: center;
-color: #FFFFFF;
-opacity: 0.7;
+  width: 600px;
+  height: 78px;
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.application {
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  background: rgba(20, 43, 56, 0.7);
+}
+.application-heading {
+  margin-bottom: 100px;
+}
+
+.application-heading h2 {
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65px;
+  color: #fafafa;
+  margin-bottom: 200px;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-left: -30%;
+}
+
+.benefit {
+  flex: 1 1 300px;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.benefit h3 {
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.benefit p {
+  width: 370px;
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #fafafa;
+  opacity: 0.7;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  background-image: url(/assets/images/contact.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  background-color: #0f1e26;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-logo {
+  flex: 1 1 250px;
+}
+
+.footer-logo h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 0 10px;
+}
+.footer-logo p {
+  width: 340px;
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.footer-links,
+.footer-contact {
+  flex: 1 1 200px;
+}
+
+.footer-links h4,
+.footer-contact h4 {
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer-links ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-contact li {
+  margin-bottom: 10px;
+  font-family: "Articulat CF";
+  font-style: normal;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #ffffff;
+  opacity: 70%;
+}
+.footer-links li:hover {
+  color: #ffffff;
+}
+
+.donate-btn {
+  display: inline-block;
+  background-color: #9a0000;
+  color: #f2f7f9;
+  padding: 14px 32px;
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 34px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.donate-btn:hover {
+  background-color: #7a0000;
+}
+
+.footer-bottom {
+  /* border-top: 1px solid #263238; */
+  border-top: 1px solid rgba(255, 255, 255, 0.24);
+  margin-top: 30px;
+  padding-top: 15px;
+  display: flex;
+  font-family: "Articulat CF";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #fefefe;
+  opacity: 0.7;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .application h2 {
+    font-size: 2rem;
+  }
+
+  .benefit {
+    max-width: 90%;
+  }
 }
 
 @media (max-width: 768px) {

@@ -247,16 +247,14 @@ footer {
   justify-content: space-between;
   gap: 40px;
 }
+
 .footer-logo {
   flex: 1 1 250px;
 }
-.footer-logo h1 {
-  font-size: 2rem;
-  color: #fff;
-  margin: 0 0 10px;
-}
+
 .footer-logo p {
-  width: 340px;
+  margin-top: 20px;
+  width: 380px;
   font-family: "Articulat CF";
   font-style: normal;
   font-weight: 400;

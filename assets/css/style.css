@@ -189,7 +189,7 @@ font-face {
   align-items: center;
   min-height: 50vh;
   background: rgba(20, 43, 56, 0.7);
-  background-image: url(/assets/images/About\ Us.png);
+  background-image: url(/assets/images/AboutUs.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -216,9 +216,7 @@ font-face {
   margin-left: -30%;
 }
 .benefit {
-  flex: 1 1 300px;
-  max-width: 400px;
-  padding: 20px;
+  padding: 40px;
 }
 .benefit h3 {
   font-family: "Articulat CF";
@@ -231,7 +229,7 @@ font-face {
   margin-bottom: 20px;
 }
 .benefit p {
-  width: 398px;
+  width: 450px;
   font-family: "Articulat CF";
   font-style: normal;
   font-weight: 400;

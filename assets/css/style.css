@@ -11,13 +11,6 @@
   min-height: 100vh;
 }
 
-/* .container {
-    width: 1140px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: auto;
-    margin-right: auto;
-  } */
 .container {
   display: flex;
   width: 100%;
@@ -32,22 +25,15 @@
   align-items: center;
   padding-top: 1rem;
 }
-font-face {
-  font-family: "Articulat CF";
-  src: url(../fonts/Articulatcf-thin.otf);
-}
-.ff-articulat {
-  font-family: "Articulat CF";
-}
 .logo {
   margin-bottom: 2rem;
   margin-top: 10px;
+  margin-left: 15px;
 }
 .nav-links {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   display: flex;
-  /* gap: 1rem; */
   gap:50px;
   align-items: center;
 }

@@ -164,6 +164,7 @@ font-face {
   margin-left: 100px;
 }
 .text-content h2 {
+  margin-bottom: 30px;
   font-family: "Articulat CF";
   font-style: normal;
   font-weight: 600;

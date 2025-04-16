@@ -51,12 +51,12 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.6;
 }
 .nav-links a.active,
 .nav-links a:hover {
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 1;
   text-decoration: underline;
 }
@@ -108,7 +108,7 @@
   font-weight: 700;
   font-size: 54px;
   line-height: 65px;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-bottom: 1rem;
 }
 .about-text h3 {
@@ -117,7 +117,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 33px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .about-text p {
   width: 477px;
@@ -125,7 +125,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.7;
   margin-top: 0.5rem;
 }
@@ -157,7 +157,7 @@
   font-size: 36px;
   line-height: 43px;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .text-content p {
   width: 700px;
@@ -168,7 +168,7 @@
   font-size: 16px;
   line-height: 160%;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.7;
 }
 .application {
@@ -260,7 +260,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #ffffff;
+  color: #FFFFFF;
   opacity: 0.7;
 }
 .footer-links,
@@ -274,7 +274,7 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
-  color: #ffffff;
+  color:#FFFFFF;
   margin-bottom: 15px;
 }
 .footer-links ul,
@@ -292,11 +292,16 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  color: #ffffff;
+  color:#FFFFFF;
   opacity: 70%;
 }
 .footer-links li:hover {
-  color: #ffffff;
+  color:#FFFFFF;
+  opacity:100%;
+}
+.footer-contact li:hover {
+  color:#FFFFFF;
+  opacity:100%;
 }
 
 .donate-btn {
